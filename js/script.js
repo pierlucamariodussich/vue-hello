@@ -1,6 +1,6 @@
 //Stampare a schermo un messaggio all’interno
 //di un h1, utilizzando i data.
-var data = new Date();
+var now = new Date();
 
 const myApp = new Vue ({
 
@@ -8,7 +8,7 @@ const myApp = new Vue ({
   data: {
      name: 'Pier Luca',
      surname: 'Dussich',
-     time: ` ${data.getHours()} e ${data.getMinutes()} minuti` ,
+     time: ` ${now.getHours()} e ${now.getMinutes()} minuti` ,
      image: "https://i.pinimg.com/originals/7b/ac/e9/7bace9fefddd0b9d79ba357adadea663.gif"
   }
 });
